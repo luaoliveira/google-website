@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Astaneh;
+    src: url("Astana regular-italic.ttf");
+}
+
+.mainText{
+    text-align: center;
+    font-family: Roboto;
+    font-size:2.3cm;
+    position: absolute;
+    top: 145px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    display: flex;
+    
+}
+
+.container{
+    height: 30vh;
+    background-color: white;
+    text-align: center;
+}
+
+.wrapper1{
+    top:320px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    width: 530px;
+    background-color: white;
+    user-select: none;
+    margin-top: 20px;
+}
+
+.container1{
+    background-color: white;
+    user-select: none;
+    border-radius: 25px 25px 25px 25px;
+    border: solid #d3d3d3;
+    border-width: thin;
+    text-align: top;
+    position: relative;
+    height: 45px;
+    max-width: 14cm;
+    min-width: 14cm;
+    
+}
+
+.input{
+    border: none;
+    left: 10%;
+    right: 20%;
+    top: 15%;
+    width: 65%;
+    padding: 10px 10px;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+#magnifier{
+    max-width: 17px;
+    position: relative;
+    left: 29px;
+    top: 18px;
+    transform: translate(-50%, -50%);
+}
+
+#keyboard{
+    position: absolute;
+    max-width: 30px;
+    right: 35px;
+    top: 22px;
+    transform: translate(-50%, -50%);
+}
+
+#mic{
+    position: absolute;
+    max-width: 30px;
+    right: 1%;
+    top: 6px;
+}
+
+.twoButtons{
+    position: absolute;
+    height:  40px;
+    width: 9cm;
+    background-color: white;
+    left: 20%;
+    margin-top: 30px;
+}
+
+.square_button{
+
+    background-color: #F8F8F8;
+    border: none;
+    color: #2d2d2d;
+    font: Roboto;
+    position: relative;
+    width: 4cm;
+    height: 30px;
+    font-size: 14px;
+    position: relative;
+}
+
+#search{
+    left: 0;
+    margin-right: 10px;
+}
+
+#luck{
+    right:0;
+}
+
+#eLetter{
+    -webkit-transform: rotate(-10deg);
+}
+.redirect{
+    text-decoration: none;
+
+}
+
+#offered{
+    font-size: 15px;
+    text-align: center;
+    top: ;
+    margin-top: 100px;
+    position: relative;
+    
+}
+
+#language{
+    color: #0645AD;
+}
+
+#topOptions{
+    width: 220px;
+    height: 30px;
+    background-color: white;
+    top: 15px;
+    position: absolute;
+    right: 15px;
+    
+}
+#gmail{
+    
+    right: 0;
+    position: relative;
+    color: #202020;
+
+}
+
+#gmail:hover{
+    text-decoration: underline;
+}
+#images{
+ 
+   margin-right: 10px;
+   right: -20px;
+    color: #202020;
+    position: relative;
+}
+
+#images:hover{
+    text-decoration: underline;
+}
+
+#apps{
+    max-width: 25px;
+    position: absolute;
+    right: 50px;
+
+}
+
+#user{
+    max-width: 25px;
+    position: absolute;
+    right: 1px;
+}
+
+#topFooter{
+    bottom: 47px;
+    
+}
+#topFooter:hover{
+    text-decoration: underline;
+}
+
+.Footer{
+    width: 100%t;
+    height: 47px;
+    background-color:#F0F0F0 ;
+    position: fixed;
+    right: 0;
+    left: 0;
+    text-indent: 30px;
+    font-family: Tahoma;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    color: #707070;
+}
+
+#bottomFooter{
+    bottom: 0px;
+    border-top: 1px solid #d3d3d3;
+}
+
+.ftConfig{
+    text-decoration: none;
+    color: #707070;
+}
+
+.ftConfig:hover{
+    text-decoration: underline;
+    
+}
+
